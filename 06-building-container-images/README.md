@@ -30,7 +30,7 @@ Dockerfiles generally have steps that are similar to those you would use to get 
 
 Here are some of the techniques demonstrated in the Dockerfiles within this repo:
 
-1) **Pinning a specific base image:** By specifying an image tag, you can avoid nasty surprises where the base image
+1) **Pinning a specific base image: I'll try** By specifying an image tag, you can avoid nasty surprises where the base image
 2) **Choosing a smaller base image:** There are often a variety of base images we can choose from. Choosing a smaller base image will usually reduce the size of your final image.
 3) **Choosing a more secure base image:** Like image size, we should consider the number of vulnerabilities in our base images and the attack surface area. Chaingaurd publishes a number of hardened images (https://www.chainguard.dev/chainguard-images).
 4) **Specifying a working directory:** Many languages have a convention for how/where applications should be installed. Adhering to that convention will make it easier for developers to work with the container.
