@@ -35,6 +35,6 @@ After installing the dependencies, `make run-api-golang` will build and run the 
 
 ### client-react
 
-Like `api-node`, you will first need to install the dependencies with `npm install` (again, I used node `v19.4.0` and npm `v9.2.0`)
+Like `api-node`, you will first need to install the dependencies with `npm install` (again, I used node `v20.18.1` and npm `v18.20.5`)
 
 After installing the dependencies, `make run-client-react` will use vite to run the react app in development mode.
